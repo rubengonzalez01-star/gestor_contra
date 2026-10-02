@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  --bs-body-line-height: 1.4;
+  --bs-body-bg: #eceef3; /* Fondo oscuro (Azul pizarra) */
+  background-color: var(--bs-body-bg); /* Aplica el color al fondo */
+  color: #0e0d0d; /* Opcional: cambia el texto a claro para mantener legibilidad */
+}
+
+#main {
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#marco {
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgba(94, 43, 43, 0.808);
+  background-color: rgba(255, 255, 255, 0.548);
+  width: 80%;
+  padding: 5px;
+}
+
+.table {
+  --bs-table-color: var(--bs-gray-600);
+  --bs-table-bg: var(--bs-gray-100);
+  --bs-table-border-color: transparent;
+}
+.tarjeta {
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+label {
+  font-weight: bold;
+  padding: 5px;
+}
